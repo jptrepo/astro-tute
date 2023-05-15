@@ -1,6 +1,7 @@
 ---
-import Social from "./Social.astro"
+import Social from "./Social.astro";
 ---
+
 <style>
   footer {
     display: flex;
@@ -8,8 +9,10 @@ import Social from "./Social.astro"
     margin-top: 2rem;
   }
 </style>
-
+<script>
+  import "../scripts/menu.js";
+</script>
 <footer>
-<Social platform="Github" username="jpthoma7"/>
-<Social platform="Twitter" username="jpthoma7"/>
+  <Social platform="Github" username="jpthoma7" />
+  <Social platform="Twitter" username="jpthoma7" />
 </footer>
